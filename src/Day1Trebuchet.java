@@ -1,10 +1,9 @@
 import java.io.File;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Day1Trebuchet {
     public void solve(){
-        File file = new File("src/data.txt");
+        File file = new File("src/Day1Trebuchet.txt");
         Scanner input = new Scanner(System.in);
         try{
             input = new Scanner(file);
